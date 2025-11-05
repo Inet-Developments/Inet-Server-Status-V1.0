@@ -1,0 +1,279 @@
+body
+{
+	margin: 0;
+	margin: 0 auto;
+	background: #f4f4f4 url(images/bg.gif) top center repeat-y;
+}
+#header
+{
+	vertical-align: top;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 18px;
+	font-family: Georgia, Lucida, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: lighter;
+	color: #00008B;
+	border-bottom: 1px solid #efefef;
+}
+.title
+{
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+	color: #90200A;
+}
+.darktitle
+{
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+	color: #000000;
+}
+#main
+{
+	width: 780px;
+	height: auto;
+	border-left: 1px solid #efefef;
+	border-right: 1px solid #efefef;
+	margin: 0 auto 0 auto;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #A52A2A;
+}
+h1, h2
+{
+    font-size: 12px;
+	font-family:  Verdana, Arial, sans-serif;
+	color: #191970;
+	font-weight: bold;
+	padding-left: 4px;
+}
+h3, h4
+{
+    font-size: 11px;
+	font-family: Verdana, Arial, sans-serif;
+	color:  #2F4F4F;
+	font-weight: bold;
+	padding-left: 8px;
+}
+#menu
+{
+	width: 150px;
+	color: #2F4F4F;
+	font-family: Verdana, Arial, sans-serif;
+	padding-top: -10px;
+}
+#menu a:link, #menu a:visited
+{
+	width: 150px;
+	margin: 1px 0 1px 0;
+	padding: 4px 3px 4px 8px;
+	background-color: transparent;
+	color: #003366;
+	text-decoration: none;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	display: block;
+}
+#menu a:hover
+{
+	color: #A52A2A;
+	text-decoration: none;
+}
+#topmenu
+{
+    text-align: right;
+	padding-top: 1em;
+	padding-right: 1em;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+}
+#topmenu a:link, #topmenu a:visited
+{
+	color: #ffffff;
+    text-decoration: none;
+    background-color: #000000; 
+	border: 1px solid #666666;
+	padding-top: .3em;
+	padding-bottom: .3em;
+	padding-left: .8em;
+	padding-right: .8em;
+}
+#topmenu a:hover
+{
+	color: #ffffff;
+	background-color: #90200A; 
+	border: 1px solid #90200A;
+    text-decoration: none;
+	padding-top: .3em;
+	padding-bottom: .3em;
+	padding-left: .8em;
+	padding-right: .8em;
+}
+#lefty
+{
+	width: 150px;
+	text-align: left;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 11px;
+	padding-right: 16px;
+	color: #00008B;
+	line-height: 145%;
+	font-family: Verdana, Arial, sans-serif;
+}
+#lefty p
+{
+	width: 94%;
+	padding: 12px;
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #f9f9f9;
+	color: #607080;
+}
+#block
+{
+	padding: 12px;
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #f9f9f9;
+	color: #607080;
+}
+#breadcrumb 
+{
+        text-align: right;
+	color: #999999;
+	padding-bottom: 11px;
+}
+#breadcrumb a:link, #breadcrumb a:visited
+{
+	color: #999999;
+	text-decoration: none;
+}
+#breadcrumb a:hover
+{
+	color: #aaaaaa;
+	text-decoration: none;
+}
+a:link, a:visited
+{
+	color: #003366;
+	border-bottom: 1px solid #efefef;
+	font-family: Verdana, Arial, sans-serif;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #A52A2A;
+	text-decoration: none;
+}
+#content
+{
+	float: left;
+	width: 760px;
+	text-align: left;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 11px;
+	padding-right: 16px;
+	border-left: 1px solid #efefef;
+	font-family: Verdana, Arial, sans-serif;
+	line-height: 145%;
+	color: #607080;
+}
+#content h3, h4
+{
+	font-family: Verdana, Arial, sans-serif;
+	color:  #2F4F4F;
+	font-weight: bold;
+        padding-left: 0px;
+}
+#footer
+{
+	text-align: center;
+	padding: 15px;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: lighter;
+	color: #000000;
+}
+hr
+{
+	border:0;
+	border-bottom: 1px solid #efefef;
+	height: 1px;
+}
+li
+{
+	list-style-type: none;
+	line-height: 160%;
+}
+
+	#nav{
+	list-style: none;
+	clear: both;
+	margin: 0 2% 1em 1%; 
+    border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc;
+	padding: 7px 0 7px 0;
+	/* Clear floats */
+	float: left;
+	width: 97%;
+	/* Bring the nav above everything else--uncomment if needed.
+	position:relative;
+	z-index:5;
+	*/
+}
+#nav li{
+	float:left;
+	margin-right:10px;
+	position:relative;
+}
+#nav a{
+	display:block;
+	padding: 3px 5px; 
+	text-decoration: none; 
+	color: #333; 
+	background: inherit; 
+}
+#nav a:hover{
+background: #3D648A;
+color: #fff;
+text-decoration:underline;
+}
+
+/*--- DROPDOWN ---*/
+#nav ul{
+	margin-top: 0;
+    padding-top: .6em;
+	background: #3D648A; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	list-style:none;
+	position:absolute;
+	display:block;
+	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+	z-index: 1;
+}
+#nav ul li{
+	padding-top:1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	display:block;
+	float:none;
+}
+#nav ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#nav li:hover ul{ /* Display the dropdown on hover */
+	left:0; /* Bring back on-screen when needed */
+}
+#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	background: #3D648A;
+	clear: both;
+	color: #fff;
+	text-decoration:underline;
+}
+#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	background: #fff;
+	color: #3D648A;
+}
